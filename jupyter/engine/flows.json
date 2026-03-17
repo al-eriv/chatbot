@@ -1,0 +1,128 @@
+{
+  "info_general": {
+    "start": {
+      "text": "En el instituto tenemos diferentes servicios.",
+      "options": [
+        {
+          "id": "6af43fec-0931-4e0f-9670-3878b63d8fdf",
+          "label": "Traducciones",
+          "next": "traducciones"
+        },
+        {
+          "id": "4e17fa26-21fd-4c94-bde3-3a1ba73207e1",
+          "label": "Exámenes",
+          "next": "examenes"
+        },
+        {
+          "id": "d7501a83-9881-42ad-9e68-fc6a67771f27",
+          "label": "Cursos",
+          "next": "cursos"
+        }
+      ]
+    },
+    "cursos": {
+      "text": "Tenemos cursos para diferentes edades: ¿Cuál te interesa?",
+      "options": [
+        {
+          "id": "6cd5de02-0e9a-4b4a-bd58-6a23f6828f9b",
+          "label": "Regresar",
+          "next": "start"
+        },
+        {
+          "id": "087cfe24-4fbb-49bb-aa4d-66180d2f23e2",
+          "label": "Adultos",
+          "next": "adultos"
+        }
+      ]
+    },
+    "examenes": {
+      "text": "Nuevo nodo...",
+      "options": []
+    },
+    "traducciones": {
+      "text": "Para cotizar sus traducciones, contáctenos a:",
+      "options": [
+        {
+          "id": "96d1aa2a-b959-4220-8f9f-5a788c917ead",
+          "label": "Instituto",
+          "next": "cta_contacto"
+        }
+      ]
+    },
+    "adultos": {
+      "text": "Hay tres tipos de cursos de adultos: Regulares de 54h, Intensivos de 108h y Personalizados.",
+      "options": [
+        {
+          "id": "7673dbfb-5ab7-4884-b8fb-7e3f4c0675cf",
+          "label": "Regulares",
+          "next": "regulares"
+        },
+        {
+          "id": "d213cbd7-8246-4817-9f15-51869ae9181b",
+          "label": "Intensivos",
+          "next": "intensivos"
+        },
+        {
+          "id": "92b9ed71-1f7a-4004-a76c-86c918f344e2",
+          "label": "Personalizados",
+          "next": "personalizados"
+        }
+      ]
+    },
+    "regulares": {
+      "text": "Los cursos regulares son de 54 horas.\nTienen un valor de $700.000 que se pueden pagar en efectivo, débito o tarjeta de crédito.",
+      "options": [
+        {
+          "id": "3f813afc-952e-41be-b35c-4e3c21623234",
+          "label": "Ver otros cursos",
+          "next": "adultos"
+        },
+        {
+          "id": "3e69e584-0174-432e-8207-01e6e4f348c4",
+          "label": "Regresar al inicio",
+          "next": "start"
+        }
+      ]
+    },
+    "intensivos": {
+      "text": "Los cursos intensivos son de 108 horas.\nTienen un valor de $1.400.000 que se pueden pagar en efectivo, débito o tarjeta de crédito.",
+      "options": [
+        {
+          "id": "f19776b1-64f9-41ba-b92d-fee6bef41dc3",
+          "label": "Ver otros cursos",
+          "next": "adultos"
+        },
+        {
+          "id": "f7253477-adff-4620-bd25-297674ddb56d",
+          "label": "Regresar al inicio",
+          "next": "start"
+        }
+      ]
+    },
+    "personalizados": {
+      "text": "Los cursos personalizados tienen un valor de 20.000 por hora y puedes solicitarlos en el instituto.\nVisitanos en San Martin 531 de lunes a sábado entre 08:00 y 19:00.",
+      "options": [
+        {
+          "id": "7bdd0d9f-b364-46c0-947e-5c16252fd7e6",
+          "label": "Regresar al inicio",
+          "next": "start"
+        },
+        {
+          "id": "fa2cf684-b780-4b3c-8642-a4db6a1627ad",
+          "label": "Ver otros cursos",
+          "next": "adultos"
+        }
+      ]
+    },
+    "cta_contacto": {
+      "text": "Nos encontramos en San Martin 531.\n\nLunes a viernes: 08:00 - 19:00\n\nSábado: 08:00 - 12:00\n\nTeléfono: +123456789",
+      "options": [
+        {
+          "id": "c5ee0d97-e2ec-455b-bb9d-98bed2b4c968",
+          "label": "Regresar al inicio",
+          "next": "start"
+        }
+      ]
+    }
+  }
+}
